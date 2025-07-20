@@ -49,7 +49,7 @@ const handleRandomColor=()=>{
   return (
     <div style={{ backgroundColor: bgColor, minHeight: "100vh", padding: "20px" }} className="mx-auto flex flex-col items-center mt-[100px] mb-[100px]">
       <div className="flex flex-row gap-4 ">
-        <button onClick={handleGenerateHexcolor} className="rounded-md w-[200px] bg-richblack-900 h-[50px] text-richblack-25 border-b-2 border-richblack-600 hover:scale-90 transition-all duration-150">Create Hex Color</button>
+        <button onClick={handleGenerateHexcolor} className="rounded-md w-[200px] bg-richblack-900 h-[50px] text-richblack-25 border-b-4 border-richblack-600 hover:scale-90 transition-all duration-150">Create Hex Color</button>
         <button onClick={handleGenerateRBGColor}  className="rounded-md w-[200px] bg-richblack-900 h-[50px] text-richblack-25 border-b-2 border-richblack-600 hover:scale-90 transition-all duration-150">Create RGB Color</button>
         <button onClick={handleRandomColor}  className="rounded-md w-[200px] bg-richblack-900 h-[50px] text-richblack-25 border-b-2 border-richblack-600 hover:scale-90 transition-all duration-150">Create Random Color</button>
       </div>
