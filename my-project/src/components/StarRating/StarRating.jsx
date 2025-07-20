@@ -26,7 +26,7 @@ export default function StarRating({ noofstars = 10 }) {
         return (
           <FaStar
             key={index}
-            size={36}
+            size={48}
             className={`p-2 cursor-pointer ${
               index <= (hover || rating) ? "text-yellow-500" : "text-gray-300"
             }`}
