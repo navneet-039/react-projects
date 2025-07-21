@@ -6,6 +6,7 @@ import ImageSlider from './components/ImageSlider/ImageSlider'
 import RandomColor from './components/RandomColorGenerator/RandomColor'
 import StarRating from './components/StarRating/StarRating'
 import Navigation from './components/RecursiveNavigationMenu'
+import QrCodeGenerator from './components/QrCode'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}/>
       <ImageLoader url={"https://dummyjson.com/products"} limit={20} skip={20}/>
       <Navigation/>
+      <QrCodeGenerator/>
  
     
      
