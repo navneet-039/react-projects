@@ -43,7 +43,7 @@ export default function ImageLoader({ url, limit, skip }) {
         products.map((item, index) => (
           <div key={index} className="items-center border-2">
             <img src={item.images[0]} alt={item.title}   />
-            <p>{item.title}</p>
+            <p >{item.title}</p>
             
             
           </div>
@@ -53,7 +53,7 @@ export default function ImageLoader({ url, limit, skip }) {
     {/* Move button outside grid to center it */}
     <div className="mt-4 flex justify-center">
       {count === 5 ? (
-        <p>You reached your limit</p>
+        <p className=" font-extrabold  text-richblack-900 text-4xl">You reached your limit</p>
       ) : (
         <button
           onClick={() => setCount(count + 1)}
